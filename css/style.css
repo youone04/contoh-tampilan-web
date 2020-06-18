@@ -1,0 +1,201 @@
+#banner-head{
+    width: 99.9%;
+    height: 130px;
+    background: rgb(23, 134, 66);
+    border-radius: 4px;
+    font-family: 'Century Gothic';
+}
+#banner-head h1 {
+    text-align: center;
+    margin-top: 90px;
+}
+#banner-head p {
+    text-align: center ;
+}
+#banner-nav{
+    position: fixed;
+    width: 98.7%;
+    background: rgb(23, 134, 66);
+    border-radius: 4px;
+    border-radius: 4px;
+    top: 0;
+    z-index: 1;
+    height: 95px;
+    font-weight: bold;
+}
+#banner-nav ul {
+    list-style-type: none;
+}
+ul li {
+    text-decoration: none;
+    display: inline;
+    font-family: 'Century Gothic';
+}
+a{
+    text-decoration: none;
+    color: black;
+    margin-right: 20px;
+}
+a:hover{
+    color: blue;
+}
+
+#profil{
+    max-width: 70%;
+    float: left;
+    position: relative;
+    box-shadow: 3px 3px 5px black;
+    border-radius: 4px;
+    height: 415px;
+    transition: all ease 0.20s;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#profil:hover{
+    cursor: pointer;
+    transform: translateX(2px);
+}
+#aside{
+    margin-left: 60px;
+    float: left;
+    width: 25%;
+    border-radius: 4px;
+    box-shadow: 3px 3px 5px black;
+    transition: all ease 0.20s;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#aside:hover{
+    cursor: pointer;
+    transform: translateX(2px);
+}
+#aside p{
+    margin-left: 8px;
+    font-size: 18px;
+}
+#aside h1{
+    margin-left: 8px;
+}
+#teks{
+    margin-top: 170px;
+    text-align: center;
+}
+#aside img{
+    width: 120px;
+    height: 120px;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+img{
+    object-fit: cover;
+    width: 200px;
+    height: 250px;
+    float: left;
+    margin: 3px;
+    margin-right: 10px;
+}
+
+footer{
+    margin-top: 500px;
+    width: 100%; 
+    clear: both;
+    padding: 2px;
+    color: white;
+    background-color: rgb(23, 134, 66);
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Century Gothic';
+}
+#profil p{
+    font-size: 18px;
+}
+#kontak{
+    display: none;
+    height: 299x;
+    width: 100%;
+    float: left;
+    position: relative;
+    box-shadow: 3px 3px 5px black;
+    border-radius: 4px;
+    font-size: 20px;
+    transition: all ease 0.20s;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#kontak:hover{
+    cursor: pointer;
+    transform: translateX(2px);
+}
+#kontak p,#kontak h1{
+    margin-left: 15px;
+}
+
+#about p,#about h1{
+    margin-left: 15px;
+}
+#about{
+    display: none;
+    height: 355px;
+    width: 100%;
+    float: left;
+    position: relative;
+    box-shadow: 3px 3px 5px black;
+    border-radius: 4px;
+    font-size: 20px;
+    transition: all ease 0.20s;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#about:hover{
+    cursor: pointer;
+    transform: translateX(2px);
+}
+@media screen and (max-width: 900px) {
+    #profil{
+        max-width: 100%;
+        margin-bottom: 20px;
+        height: auto;
+    }
+    #aside{
+        width: 100%;
+        margin: 0;
+        margin-bottom: 20px;
+    }
+    img{
+        width: 98.8%;
+        margin-bottom: 20px;
+    }
+    #banner-nav{
+        position: fixed;
+        width: 95.5%;
+        bottom: 0;
+        background: rgb(23, 134, 66);
+        border-radius: 4px;
+        border-radius: 4px;
+        z-index: 1;
+        height: 95px;
+    }
+    li{
+        margin-left: 18px;
+    }
+    #kontak{
+        width: 98.8%;
+    }
+    #kontak p{
+        margin-left: 5px;
+    }
+    ul li {
+        text-decoration: none;
+        display: inline;
+        margin-left: 5px;
+    }
+    #about{
+        width: 98.8%;
+    }
+    #banner-head{
+        width: 100%;
+    }
+    #aside img{
+        width: 120px;
+        height: 120px;
+        margin-left: 110px;
+        margin-top: 20px;
+    }
+  }
